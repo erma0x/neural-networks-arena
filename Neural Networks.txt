@@ -1,0 +1,79 @@
+activation functions
+
+loss functions
+
+optimizer (gradient descent)
+	
+	backpropagation (gradient descent on NN)
+	adagrad
+	adam
+	rmsprop
+
+parameters and hyperparameters
+	batch size : too large dataset
+	batches: subset of the entire dataset
+	number of batches = number of iteration for one epoch
+	epochs : entire dataset
+	learning rate
+
+	
+
+	
+regularization: avoid overfit and underfit
+	dropout: randomly removes nodes & connection for better generalization
+	augmentation : create fake data
+		imagesr: rotation & scale
+		
+	early stopping
+	
+learning:
+	supervised
+		classification
+		regression
+		
+	unsupervised
+		clustering
+			partitional
+			hierarchical
+		association
+		
+	semi-supervided
+	
+	reinforced: maximize/minimize actions scores
+		markov decision process
+		
+NN architecture:
+	feed forward
+	RNN: 
+	     backpropagation through time (BTT)
+	     vanishing gradient problem: no long memory
+	     
+	     long-term dependencies
+	     	LSTM-NN long short term memory
+	     	GRNN Gated RNN
+	CNN
+		input 2D
+		output 1D
+	
+		convolution : dot product of NxN and NxN kerner filter extracting features from images
+		pooling : subsampling, still retain the important features with minimal neurons
+	
+	
+	R-CNN
+	  1 generate anchor boxes
+	  2 find IoU (intersection between correct and proposed expressed in %), intersection of Union (supervised learning)
+	  3 correct if IoU if IoU>50%
+	  4 output of features maps of anchor boxes labled as foreground objects
+	  5 ROI(region of interest) pooling -> reduce features maps to same size
+	     take each box and flatten it into array
+	
+	
+	
+	1: classify foreground object
+		
+gathering data
+preprocessing data
+training model
+evaluating model
+	cross validation
+optimize model accuracy
