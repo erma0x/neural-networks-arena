@@ -1,6 +1,6 @@
 numpy == 1.22.4
 simple-pickle == 1.6.1 
 gzip-utils == 2020.7.15
-tensorflow == 2.9.1 
+tensorflow == 2.9.3 
 pixellib == 0.7.1 
 keras == 2.9.0rc0
